@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - '5.4'
+      - 'main'
   pull_request:
     branches:
-      - '5.4'
+      - 'main'
 
 env:
   APP_ENV: test
